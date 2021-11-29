@@ -14,3 +14,17 @@ console.log("" + c)
 c = a+b
 
 console.log(c)
+
+
+function sayHey() {
+    console.log("hey!");
+
+}
+
+function conversation() {
+    sayHey();
+    console.log("my name is muna");
+    console.log("I love me");
+
+}
+conversation();

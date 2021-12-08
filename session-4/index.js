@@ -91,6 +91,24 @@ console.log("Division: x + y " + division);
 
 // ****************************************************TASK 3****************************************************
 
+const yourAge = 15;
+const minDrivingAge = 18;
+
+const isAllowedToDrive = yourAge > 18;
+
+console.log(yourAge + "is old enough to drive? " + isAllowedToDrive);
+
+
+// if (yourAge > minDrivingAge) {
+//     console.log( "You are over " + minDrivingAge + ", so you are allowed to drive!");
+
+// }
+
+// else (yourAge < minDrivingAge) {
+//     console.log( "You are not over " + minDrivingAge + ", so you are not allowed to drive!");
+
+// }
+
 
 
 

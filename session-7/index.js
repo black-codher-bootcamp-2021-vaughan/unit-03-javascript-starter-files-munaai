@@ -1,8 +1,10 @@
 // ****************************************************TASK 1****************************************************
 
 
-
-
+const animals = ['cat', 'dog', 'wolf','lion'];
+animals.pop();
+console.log(animals)
+animals
 
 
 

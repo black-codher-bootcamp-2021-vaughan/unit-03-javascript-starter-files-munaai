@@ -28,13 +28,3 @@ if (total > 90 ){
 
 
 getGrade(45)
-
-
-// A+ if total is greater than 90.
-// ○ A if total is greater than 80 and less than or equal to 90.
-// ○ B if total is greater than 70 and less than or equal to 80.
-// ○ C if total is greater than 60 and less than or equal to 70.
-// ○ D if total is greater than 50 and less than or equal to 60.
-// ○ E if total is greater than 40 and less than or equal to 50.
-// ○ F if total is greater than 30 and less than or equal to 40.
-// ○ “Fail” is total is less than 30

@@ -18,7 +18,10 @@ animals
 
 // ****************************************************TASK 2****************************************************
 
-
+const names = ['muna', 'ben', 'sophie', 'joe', 'cal', 'graham', 'sam', 'jan', 'pete', 'kat'];
+names.sort().reverse();
+names.sort().shuffle();
+console.log(names);
 
 
 

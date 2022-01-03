@@ -48,6 +48,24 @@ function conversation() {
 }
 conversation();
 
+//revision
+
+function sayHeyMuna(name) {
+    console.log("hey " + name + "!");
+}
+sayHeyMuna("muna")    
+
+//moreRevision
+function anotherConversation(first, topic) {
+    console.log("Hey " + first + " What is the weather like?");
+    console.log("Do you like " + topic);
+}
+
+anotherConversation("muna", "pizza");
+anotherConversation("simon", "cake")
+
+
+
 
 // var x = "muna";
 // var y = 24;
@@ -62,6 +80,7 @@ conversation();
 
 // The top part is the way i did it First. It makes more sense at the bottom
 
+//task 3
 
 function futureAge (name,age) {
     const ageInFiveYears = age + 5;
@@ -69,4 +88,36 @@ function futureAge (name,age) {
 }    
 
 console.log(futureAge("muna", 20));
-    
+
+//Revision
+
+function addTwoNumbers(x,y) {
+    const answer = x + y;
+    return "The answer is: " + answer;
+}
+console.log(addTwoNumbers(1,2));
+
+//revision
+
+const squareNumber = function(number){
+    return number * number;
+}
+console.log(squareNumber(5));
+
+const hey = function() {
+    return "hey lovely humans"
+}
+console.log(hey);
+
+//shorter version
+
+// const hey = () => {
+//     return "hey lovely humans"
+// }
+// console.log(hey);
+
+// const hey = () => "hey lovely humans";
+// console.log(hey);
+
+// const hey =(name) => "hey" + name;
+const hey = name => "hey" + name;

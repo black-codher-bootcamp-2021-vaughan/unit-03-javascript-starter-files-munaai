@@ -24,7 +24,7 @@ function getGrade (total) {
 }
 console.log(getGrade(81));
 
-//revision
+// Task 2 using switch
 
 function getGrade (total) {
     switch (true){
